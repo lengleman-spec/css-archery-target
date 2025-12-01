@@ -10,11 +10,39 @@
   align-items: center;
   min-height: 100vh;
   width: 100%;
+  position: relative;
 }
 
 .yellow {
   background-color: yellow;
   height: 100px;
   width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+}
+
+.red {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+}
+
+.blue {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+}
+
+.black {
+  background-color: black;
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
 }
